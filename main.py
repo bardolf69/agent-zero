@@ -16,12 +16,12 @@ def initialize():
     
     # main chat model used by agents (smarter, more accurate)
 
-    # chat_llm = models.get_groq_llama70b(temperature=0.2)30902090
+    # chat_llm = models.get_groq_llama70b(temperature=0.2)
     # chat_llm = models.get_groq_llama70b_json(temperature=0.2)
-    # chat_llm = models.get_groq_llama8b(temperature=0.2)ada rtx3090
+    # chat_llm = models.get_groq_llama8b(temperature=0.2)
     # chat_llm = models.get_openai_gpt35(temperature=0)
     # chat_llm = models.get_openai_gpt4o(temperature=0)
-    # chat_llm = models.get_openai_chat(temperature=0)
+    chat_llm = models.get_openai_chat(temperature=0)
     # chat_llm = models.get_anthropic_opus(temperature=0)
     # chat_llm = models.get_anthropic_sonnet(temperature=0)
     # chat_llm = models.get_anthropic_sonnet_35(temperature=0)
@@ -29,7 +29,7 @@ def initialize():
     # chat_llm = models.get_ollama_dolphin()
     # chat_llm = models.get_ollama(model_name="gemma2:27b")
     # chat_llm = models.get_ollama(model_name="llama3:8b-text-fp16")
-    chat_llm = models.get_ollama(model_name="gemma2:latest")
+    # chat_llm = models.get_ollama(model_name="gemma2:latest")
     # chat_llm = models.get_ollama(model_name="qwen:14b")
     # chat_llm = models.get_google_chat()
 
